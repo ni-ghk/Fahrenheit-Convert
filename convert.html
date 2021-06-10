@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Converter</title>
+        <script type="text/javascript" defer src="convert.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="convert.css">
+    </head>
+    <body>
+        <div class="converter">
+            <div class="input">
+                <h2>CONVERTER</h2>
+                <br>
+                <input type="text" class="temp" id="temp" oninput="toCelcius(this.value)" onchange="toCelcius(this.value)">
+            </div>
+            <div class="output">
+                <p class="tp" id="celcius"></p>
+            </div>
+        </div>
+    </body>
+</html>
